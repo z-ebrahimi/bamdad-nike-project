@@ -1,7 +1,8 @@
 :root {
   --primary-color: #000;
   --secondary-color: #f5f5f5;
-  --tertiary-color: #E5E5E5;
+  --tertiary-color: #e5e5e5;
+  --quaternary-color:#757575;
 }
 * {
   margin: 0;
@@ -70,9 +71,6 @@ nav > ul > li a {
   height: 60px;
   background-color: var(--secondary-color);
 }
-.nike-app-title {
-  font-weight: bold;
-}
 .nike-app-section a {
   font-weight: 500;
   color: var(--primary-color);
@@ -85,6 +83,10 @@ nav > ul > li a {
 #air-max img {
   width: 100%;
 }
+#air-max .swiper-button-next::after,
+#air-max .swiper-button-prev::after {
+  font-size: 15px;
+}
 #air-max .swiper-button-prev,
 #air-max .swiper-button-next {
   width: 40px;
@@ -96,9 +98,52 @@ nav > ul > li a {
   position: unset;
   margin: -5px 3px;
 }
-#air-max .swiper-button-next::after,
-#air-max .swiper-button-prev::after {
+
+#air-max a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#air-max .category-link a{
+  color: var(--quaternary-color);
+}
+/*gear-up-slider-section*/
+#mens-swiper .swiper,
+#women-swiper .swiper {
+  width: 100%;
+  height: max-content;
+}
+.gear-up-section a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#mens-swiper .category-link a,
+#women-swiper .category-link a{
+  color: var(--quaternary-color);
+}
+#mens-swiper img,
+#women-swiper img {
+  width: 100%;
+}
+#mens-swiper .swiper-button-prev::after,
+#mens-swiper .swiper-button-next::after,
+#women-swiper .swiper-button-next::after,
+#women-swiper .swiper-button-prev::after {
   font-size: 15px;
+}
+#mens-swiper .swiper-button-next,
+#mens-swiper .swiper-button-prev,
+#women-swiper .swiper-button-next,
+#women-swiper .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  position: unset;
+  margin: -5px 3px;
 }
 /*main:end*/
 
