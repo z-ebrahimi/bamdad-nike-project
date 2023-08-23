@@ -2,37 +2,37 @@
 const air_max_swiper = new Swiper("#air-max .swiper", {
   // Optional parameters
   direction: "horizontal",
-  slidesPerView: 3.07,
+  slidesPerView: 1,
   spaceBetween: 10,
   loop: false,
   grabCursor: true,
-  /*breakpoints: {
+  breakpoints: {
     // when window width is >= 576px
     576: {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 2,
+      spaceBetween: 10,
     },
     // when window width is >= 768px
     768: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      spaceBetween: 10,
     },
     // when window width is >= 992px
     992: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      spaceBetween: 10,
     },
     // when window width is >= 1200px
     1200: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 3.07,
+      spaceBetween: 10,
     },
     // when window width is >= 1400px
     1400: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 3.5,
+      spaceBetween: 10,
     },
-  },*/
+  },
 
   // Navigation arrows
   navigation: {
@@ -47,37 +47,37 @@ const air_max_swiper = new Swiper("#air-max .swiper", {
 const gear_up_mens_swiper = new Swiper("#mens-swiper .swiper", {
   // Optional parameters
   direction: "horizontal",
-  slidesPerView: 2,
-  spaceBetween: 10,
+  slidesPerView: 1,
+  spaceBetween: 5,
   loop: false,
   grabCursor: true,
-  /*breakpoints: {
+  breakpoints: {
     // when window width is >= 576px
     576: {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 5,
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 1,
+      spaceBetween: 5,
     },
     // when window width is >= 992px
     992: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 1,
+      spaceBetween: 5,
     },
     // when window width is >= 1200px
     1200: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 2,
+      spaceBetween: 10,
     },
     // when window width is >= 1400px
     1400: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 2,
+      spaceBetween: 10,
     },
-  },*/
+  },
 
   // Navigation arrows
   navigation: {
@@ -91,37 +91,37 @@ const gear_up_mens_swiper = new Swiper("#mens-swiper .swiper", {
 const gear_up_women_swiper = new Swiper("#women-swiper .swiper", {
   // Optional parameters
   direction: "horizontal",
-  slidesPerView: 2,
-  spaceBetween: 10,
+  slidesPerView: 1,
+  spaceBetween: 5,
   loop: false,
   grabCursor: true,
-  /*breakpoints: {
+  breakpoints: {
     // when window width is >= 576px
     576: {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 5,
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 1,
+      spaceBetween: 5,
     },
     // when window width is >= 992px
     992: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 1,
+      spaceBetween: 5,
     },
     // when window width is >= 1200px
     1200: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 2,
+      spaceBetween: 10,
     },
     // when window width is >= 1400px
     1400: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 2,
+      spaceBetween: 10,
     },
-  },*/
+  },
 
   // Navigation arrows
   navigation: {

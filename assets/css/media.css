@@ -1,0 +1,60 @@
+/*xs*/
+@media (max-width: 575.99px) {
+  /* body{} */
+  #women-swiper .swiper{
+    width: 0%;
+  }
+  #mens-swiper .swiper{
+    width: 200%;
+  }
+}
+/*sm*/
+@media (min-width: 576px) {
+  /* body{} */
+}
+/*md*/
+@media (min-width: 768px) {
+  /* body{} */
+}
+/*lg*/
+@media (min-width: 992px) {
+  /* body{} */
+  .air-max-box,
+  #air-max .shop-link {
+    font-size: 0.8rem;
+  }
+  #mens-swiper .swiper,
+  #women-swiper .swiper {
+    width: 100%;
+    height: max-content;
+    font-size: 0.8rem;
+  }
+}
+/*xl*/
+@media (min-width: 1200px) {
+  /* body{} */
+  .air-max-box,
+  #air-max .shop-link {
+    font-size: 0.8rem;
+  }
+  #mens-swiper .swiper,
+  #women-swiper .swiper {
+    width: 100%;
+    height: max-content;
+    font-size: 0.8rem;
+  }
+}
+/*xxl*/
+@media (min-width: 1400px) {
+  .air-max-box,
+  #air-max .shop-link {
+    font-size: 0.8rem;
+  }
+  #mens-swiper .swiper,
+  #women-swiper .swiper {
+    width: 100%;
+    height: max-content;
+    font-size: 0.8rem;
+  }
+  /* body{} */
+}

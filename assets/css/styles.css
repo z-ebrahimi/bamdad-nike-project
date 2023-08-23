@@ -80,18 +80,22 @@ nav > ul > li a {
   width: 100%;
   height: max-content;
 }
+.air-max-box,
+#air-max .shop-link{
+  font-size: 0.6rem;
+}
 #air-max img {
   width: 100%;
 }
 #air-max .swiper-button-next::after,
 #air-max .swiper-button-prev::after {
-  font-size: 15px;
+  font-size: 12px;
 }
 #air-max .swiper-button-prev,
 #air-max .swiper-button-next {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   border-radius: 50%;
   color: var(--primary-color);
   background-color: var(--tertiary-color);
@@ -112,6 +116,7 @@ nav > ul > li a {
 #women-swiper .swiper {
   width: 100%;
   height: max-content;
+  font-size: 0.6rem;
 }
 .gear-up-section a {
   text-decoration: none;
@@ -130,15 +135,15 @@ nav > ul > li a {
 #mens-swiper .swiper-button-next::after,
 #women-swiper .swiper-button-next::after,
 #women-swiper .swiper-button-prev::after {
-  font-size: 15px;
+  font-size: 12px;
 }
 #mens-swiper .swiper-button-next,
 #mens-swiper .swiper-button-prev,
 #women-swiper .swiper-button-next,
 #women-swiper .swiper-button-prev {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   border-radius: 50%;
   color: var(--primary-color);
   background-color: var(--tertiary-color);
