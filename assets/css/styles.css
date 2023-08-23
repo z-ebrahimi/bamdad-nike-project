@@ -143,7 +143,7 @@ nav > ul > li a {
   color: var(--primary-color);
   background-color: var(--tertiary-color);
   position: unset;
-  margin: -5px 3px;
+  margin: -5px 5px;
 }
 /*main:end*/
 
