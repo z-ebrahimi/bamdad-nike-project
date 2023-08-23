@@ -1,60 +1,50 @@
-/*xs*/
-@media (max-width: 575.99px) {
-  /* body{} */
-  #women-swiper .swiper{
-    width: 0%;
-  }
-  #mens-swiper .swiper{
-    width: 200%;
-  }
-}
-/*sm*/
-@media (min-width: 576px) {
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
   /* body{} */
 }
-/*md*/
-@media (min-width: 768px) {
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
   /* body{} */
 }
-/*lg*/
-@media (min-width: 992px) {
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* body{} */
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
   /* body{} */
   .air-max-box,
   #air-max .shop-link {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   #mens-swiper .swiper,
   #women-swiper .swiper {
-    width: 100%;
-    height: max-content;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+  .essentials-description {
+    font-size: 0.7rem;
   }
 }
-/*xl*/
-@media (min-width: 1200px) {
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
   /* body{} */
   .air-max-box,
   #air-max .shop-link {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
   #mens-swiper .swiper,
   #women-swiper .swiper {
-    width: 100%;
-    height: max-content;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
-}
-/*xxl*/
-@media (min-width: 1400px) {
-  .air-max-box,
-  #air-max .shop-link {
-    font-size: 0.8rem;
+  .essentials-description {
+    font-size: 0.5rem;
+    margin-left: 20px;
+    min-width: 60px;
+    min-height: 25px;
+    line-height: 25px;
   }
-  #mens-swiper .swiper,
-  #women-swiper .swiper {
-    width: 100%;
-    height: max-content;
-    font-size: 0.8rem;
-  }
-  /* body{} */
 }
