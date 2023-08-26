@@ -118,7 +118,7 @@ nav > ul > li a {
   color: var(--quaternary-color);
 }
 /*gear-up-slider-section*/
-#mens-swiper .swiper,
+#men-swiper .swiper,
 #women-swiper .swiper {
   width: 100%;
   height: max-content;
@@ -129,22 +129,22 @@ nav > ul > li a {
   color: var(--primary-color);
   font-weight: bold;
 }
-#mens-swiper .category-link a,
+#men-swiper .category-link a,
 #women-swiper .category-link a {
   color: var(--quaternary-color);
 }
-#mens-swiper img,
+#men-swiper img,
 #women-swiper img {
   width: 100%;
 }
-#mens-swiper .swiper-button-prev::after,
-#mens-swiper .swiper-button-next::after,
+#men-swiper .swiper-button-prev::after,
+#men-swiper .swiper-button-next::after,
 #women-swiper .swiper-button-next::after,
 #women-swiper .swiper-button-prev::after {
   font-size: 12px;
 }
-#mens-swiper .swiper-button-next,
-#mens-swiper .swiper-button-prev,
+#men-swiper .swiper-button-next,
+#men-swiper .swiper-button-prev,
 #women-swiper .swiper-button-next,
 #women-swiper .swiper-button-prev {
   width: 35px;
@@ -156,8 +156,8 @@ nav > ul > li a {
   position: unset;
   margin: -5px 5px;
 }
-#mens-swiper .swiper-button-next:hover,
-#mens-swiper .swiper-button-prev:hover,
+#men-swiper .swiper-button-next:hover,
+#men-swiper .swiper-button-prev:hover,
 #women-swiper .swiper-button-next:hover,
 #women-swiper .swiper-button-prev:hover {
   background-color: var(--quaternary-color);

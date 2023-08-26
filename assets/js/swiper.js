@@ -43,8 +43,8 @@ const air_max_swiper = new Swiper("#air-max .swiper", {
 
 
 //gear-up-section-sliders:
-//1-mens-swiper
-const gear_up_mens_swiper = new Swiper("#mens-swiper .swiper", {
+//1-men-swiper
+const gear_up_men_swiper = new Swiper("#men-swiper .swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 1,
