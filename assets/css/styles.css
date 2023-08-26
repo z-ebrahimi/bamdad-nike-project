@@ -4,6 +4,7 @@
   --tertiary-color: #e5e5e5;
   --quaternary-color: #757575;
   --quinary-color: #ffffff;
+  --senary-color:#000000c2;
 }
 * {
   margin: 0;
@@ -37,11 +38,15 @@
 nav > ul > li {
   list-style-type: none;
   padding: 10px 15px;
+  transition: all 500ms;
 }
 nav > ul > li a {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: bold;
+}
+nav > ul > li a:hover{
+  color: var(--senary-color);
 }
 .search-box > input {
   width: 100%;
