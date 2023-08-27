@@ -4,7 +4,7 @@
   --tertiary-color: #e5e5e5;
   --quaternary-color: #757575;
   --quinary-color: #ffffff;
-  --senary-color:#000000c2;
+  --senary-color: #000000c2;
 }
 * {
   margin: 0;
@@ -45,7 +45,7 @@ nav > ul > li a {
   color: var(--primary-color);
   font-weight: bold;
 }
-nav > ul > li a:hover{
+nav > ul > li a:hover {
   color: var(--senary-color);
 }
 .search-box > input {
@@ -62,6 +62,10 @@ nav > ul > li a:hover{
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
+  position: absolute;
+}
+.fav-basket-box img {
+  padding: 10px;
 }
 /*header:end*/
 
