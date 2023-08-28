@@ -15,12 +15,8 @@
 input::placeholder{
   color:var(--septenary-color);
 }
-/*.row > div {
-  border: 1px solid var(--primary-color);
-}*/
-
 /*header:start*/
-/*login-bar*/
+/*top-menu*/
 .login-container {
   background-color: var(--secondary-color);
 }
@@ -38,7 +34,7 @@ input::placeholder{
   color: var(--primary-color);
   font-weight: bold;
 }
-/*menu-bar*/
+/*main-menu*/
 nav > ul > li {
   list-style-type: none;
   padding: 5px 15px;
