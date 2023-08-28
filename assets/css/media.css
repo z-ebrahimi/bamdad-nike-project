@@ -16,14 +16,14 @@
   /* body{} */
   .opened-search-box {
     right: 45%;
-    height: 120px;
-    line-height: 120px;
+    height: 110px;
+    line-height: 110px;
   }
   .opened-search-box > input {
     width: 70%;
   }
-  .opened-search-box-icon{
-    left:12%
+  .opened-search-box-icon {
+    left: 12%;
   }
 }
 
@@ -42,7 +42,8 @@
     font-size: 0.7rem;
   }
   .opened-search-box {
-    right: 35%;
+    width: 100%;
+    right: 38%;
   }
 }
 
@@ -67,5 +68,6 @@
   .opened-search-box {
     width: 110%;
     right: 50%;
+    top: 20%;
   }
 }

@@ -51,7 +51,7 @@ nav > ul > li a:hover {
   color: var(--senary-color);
 }
 .search-box > input {
-  width: 90%;
+  width: 100%;
   background-color: var(--secondary-color);
   outline: none;
   border: none;
@@ -110,7 +110,7 @@ nav > ul > li a:hover {
 }
 /*opened-search-box:end*/
 .fav-basket-box img {
-  padding: 10px;
+  padding: 0px 12px;
 }
 /*header:end*/
 
