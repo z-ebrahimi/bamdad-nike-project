@@ -17,14 +17,15 @@ input::placeholder{
 }
 /*header:start*/
 /*top-menu*/
-.login-container {
+.top-menu-container {
   background-color: var(--secondary-color);
 }
 .top-menu > ul > li {
-  font-size: 0.9rem;
   list-style-type: none;
   padding: 0px 10px;
   border-right: 2px solid var(--primary-color);
+  height: 12px;
+  line-height: 8px;
 }
 .top-menu > ul > :last-child {
   border-right: none;
@@ -32,6 +33,7 @@ input::placeholder{
 .top-menu > ul > li a {
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 0.8rem;
   font-weight: bold;
 }
 /*main-menu*/
@@ -49,7 +51,7 @@ nav > ul > li a:hover {
   color: var(--senary-color);
 }
 .search-box > input {
-  width: 100%;
+  width: 90%;
   background-color: var(--secondary-color);
   outline: none;
   border: none;
@@ -124,7 +126,7 @@ nav > ul > li a:hover {
   color: var(--primary-color);
 }
 .nike-app-text{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 /*hero-section*/
 .hero-section img {
