@@ -42,9 +42,9 @@
       <!--header-login-bar : end-->
       <!--header-menu-bar : start-->
       <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center  position-relative">
           <!--menu bar *** logo-->
-          <div class="col-1 col-sm-3 col-lg-3">
+          <div class="col-0 col-sm-3 col-lg-3">
             <div class="nike-logo">
               <img src="assets/images/Vector.png" alt="nike-logo" />
             </div>
@@ -52,9 +52,9 @@
           <!--menu bar *** navbar-->
           <div class="col-11 col-sm-9 col-lg-6">
             <nav>
-              <ul class="d-flex justify-content-center pt-2">
+              <ul class="d-flex justify-content-center pt-3 ps-0">
                 <li>
-                  <a href="#">New & Featured</a>
+                  <a class="d-inline-block text-truncate" href="#">New & Featured</a>
                 </li>
                 <li>
                   <a href="#">Men</a>
@@ -79,11 +79,22 @@
             <div class="row align-items-center">
               <!--menu bar *** search-box-->
               <div class="col-9">
-                <div id="header-search-box" class="search-box d-flex position-relative mb-2">
+                <div
+                  id="header-search-box"
+                  class="search-box d-flex position-relative mb-2 mb-lg-0"
+                >
                   <div class="search-box-icon">
-                    <img src="assets/images/magnifying-glass.svg" alt="">
+                    <img src="assets/images/magnifying-glass.svg" alt="" />
                   </div>
                   <input type="text" placeholder="Search" />
+                </div>
+                <!--opened-search-box-->
+                <div id="header-opened-search-box" class="opened-search-box">
+                  <div class="opened-search-box-icon">
+                    <img src="assets/images/magnifying-glass.svg" alt="" />
+                  </div>
+                  <input type="text" placeholder="Search" />
+                  <button id="close-search-box" class="ps-3">Cancel</button>
                 </div>
               </div>
               <!--menu bar *** basket-&-favorite-->
@@ -91,12 +102,12 @@
                 <div class="fav-basket-box d-flex">
                   <div>
                     <a href="#">
-                      <img src="assets/images/heart.svg" alt="">
+                      <img src="assets/images/heart.svg" alt="" />
                     </a>
                   </div>
                   <div>
                     <a href="#">
-                      <img src="assets/images/basket.svg" alt="">
+                      <img src="assets/images/basket.svg" alt="" />
                     </a>
                   </div>
                 </div>

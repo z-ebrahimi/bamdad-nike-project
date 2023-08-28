@@ -6,11 +6,25 @@
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   /* body{} */
+  .opened-search-box {
+    width: 85%;
+  }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   /* body{} */
+  .opened-search-box {
+    right: 45%;
+    height: 120px;
+    line-height: 120px;
+  }
+  .opened-search-box > input {
+    width: 70%;
+  }
+  .opened-search-box-icon{
+    left:12%
+  }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -20,12 +34,15 @@
   #air-max .shop-link {
     font-size: 0.7rem;
   }
-  #mens-swiper .swiper,
+  #men-swiper .swiper,
   #women-swiper .swiper {
     font-size: 0.7rem;
   }
   .essentials-description {
     font-size: 0.7rem;
+  }
+  .opened-search-box {
+    right: 35%;
   }
 }
 
@@ -36,7 +53,7 @@
   #air-max .shop-link {
     font-size: 0.5rem;
   }
-  #mens-swiper .swiper,
+  #men-swiper .swiper,
   #women-swiper .swiper {
     font-size: 0.5rem;
   }
@@ -46,5 +63,9 @@
     min-width: 60px;
     min-height: 25px;
     line-height: 25px;
+  }
+  .opened-search-box {
+    width: 110%;
+    right: 50%;
   }
 }
