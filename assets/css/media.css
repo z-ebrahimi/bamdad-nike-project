@@ -6,24 +6,29 @@
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   /* body{} */
-  .opened-search-box {
-    width: 85%;
-  }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   /* body{} */
   .opened-search-box {
-    right: 45%;
-    height: 110px;
-    line-height: 110px;
+    width: 110%;
+    top: 4%;
+    height: 45px;
+    line-height: 45px;
   }
   .opened-search-box > input {
     width: 70%;
+    height: 35px;
+    line-height: 35px;
   }
   .opened-search-box-icon {
     left: 12%;
+  }
+  .search-box-icon {
+    left: 90%;
+    top: 30%;
+    transform: translateY(-70%);
   }
 }
 
@@ -40,10 +45,6 @@
   }
   .essentials-description {
     font-size: 0.7rem;
-  }
-  .opened-search-box {
-    width: 100%;
-    right: 38%;
   }
 }
 
@@ -64,10 +65,5 @@
     min-width: 60px;
     min-height: 25px;
     line-height: 25px;
-  }
-  .opened-search-box {
-    width: 110%;
-    right: 50%;
-    top: 20%;
   }
 }

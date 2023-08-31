@@ -4,8 +4,8 @@ const searchBoxInput = document.querySelector(
   "#header-search-box input[type='text']"
 );
 const openedSearchBoxInput = document.querySelector(
-    "#header-opened-search-box input[type='text']"
-  );
+  "#header-opened-search-box input[type='text']"
+);
 const closeSearchBox = document.getElementById("close-search-box");
 
 searchBoxInput.addEventListener("click", () => {
@@ -14,4 +14,12 @@ searchBoxInput.addEventListener("click", () => {
 });
 closeSearchBox.addEventListener("click", () => {
   openedSearchBox.classList.remove("active");
+});
+
+//header-search-box-icon
+const searchBoxIcon = document.getElementById("header-search-box-icon");
+
+searchBoxIcon.addEventListener("click", () => {
+  openedSearchBox.classList.add("active");
+  openedSearchBoxInput.focus();
 });

@@ -38,78 +38,120 @@
       <!--header-top-menu : end-->
       <!--header-main-menu : start-->
       <div class="container">
-        <div class="row justify-content-center align-items-center  position-relative">
-          <!--main-menu *** logo-->
-          <div class="col-0 col-sm-3 col-lg-3">
-            <div class="nike-logo">
-              <img src="assets/icons/nike.png" alt="nike-logo" />
+        <div
+          class="row justify-content-center align-items-center position-relative"
+        >
+          <nav class="navbar navbar-expand-lg mx-xl-5">
+            <!--main-menu *** logo-->
+            <div class="col-5 col-lg-3">
+              <div class="nike-logo">
+                <img src="assets/icons/nike.png" alt="nike-logo" />
+              </div>
             </div>
-          </div>
-          <!--main-menu *** navbar-->
-          <div class="col-11 col-sm-9 col-lg-6">
-            <nav>
-              <ul class="d-flex justify-content-center pt-3 ps-0">
-                <li>
-                  <a class="d-inline-block text-truncate" href="#">New & Featured</a>
-                </li>
-                <li>
-                  <a href="#">Men</a>
-                </li>
-                <li>
-                  <a href="#">Women</a>
-                </li>
-                <li>
-                  <a href="#">Kids</a>
-                </li>
-                <li>
-                  <a href="#">Sale</a>
-                </li>
-                <li>
-                  <a href="#">SNKRS</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <!--meain-menu*** right-side-->
-          <div class="col-9 col-sm-9 col-lg-3">
-            <div class="row align-items-center">
-              <!--main-menu *** search-box-->
-              <div class="col-9">
+            <!--main-menu *** navbar-->
+            <div class="col-2 col-lg-6">
+              <div class="container-fluid">
                 <div
-                  id="header-search-box"
-                  class="search-box d-flex position-relative mb-2 mb-lg-0 ms-lg-4"
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasNavbar"
                 >
-                  <div class="search-box-icon">
-                    <img src="assets/icons/magnifying-glass.svg" alt="" />
+                  <div class="offcanvas-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                    ></button>
                   </div>
-                  <input type="text" placeholder="Search" />
-                </div>
-                <!--opened-search-box-->
-                <div id="header-opened-search-box" class="opened-search-box">
-                  <div class="opened-search-box-icon">
-                    <img src="assets/icons/magnifying-glass.svg" alt="" />
-                  </div>
-                  <input type="text" placeholder="Search" />
-                  <button id="close-search-box" class="ps-3">Cancel</button>
-                </div>
-              </div>
-              <!--main-menu *** basket-&-favorite-->
-              <div class="col-3">
-                <div class="fav-basket-box d-flex">
-                  <div>
-                    <a href="#">
-                      <img src="assets/icons/heart.svg" alt="" />
-                    </a>
-                  </div>
-                  <div>
-                    <a href="#">
-                      <img src="assets/icons/basket.svg" alt="" />
-                    </a>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-xxl-5">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link d-inline-block text-truncate"
+                          href="#"
+                          >New & Featured</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Kids</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sale</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SNKRS</a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+            <!--main-menu*** right-side-->
+            <div class="col-5 col-lg-3">
+              <div class="row align-items-center me-5 me-md-0">
+                <!--main-menu *** search-box-->
+                <div class="col-6 col-lg-8 mt-2 mt-lg-0">
+                  <div
+                    id="header-search-box"
+                    class="search-box d-flex position-relative mb-2 mb-lg-0 ms-lg-4"
+                  >
+                    <div id="header-search-box-icon" class="search-box-icon">
+                      <img src="assets/icons/magnifying-glass.svg" alt="" />
+                    </div>
+                    <input
+                      class="d-none d-lg-block"
+                      type="text"
+                      placeholder="Search"
+                    />
+                  </div>
+                  <!--opened-search-box-->
+                  <form action="">
+                    <div
+                      id="header-opened-search-box"
+                      class="opened-search-box"
+                    >
+                      <div class="opened-search-box-icon">
+                        <img src="assets/icons/magnifying-glass.svg" alt="" />
+                      </div>
+                      <input type="text" placeholder="Search" />
+                      <button id="close-search-box" class="ps-3">Cancel</button>
+                    </div>
+                  </form>
+                </div>
+                <!--main-menu *** basket-&-favorite-->
+                <div class="col-6 col-lg-4">
+                  <div class="fav-basket-box d-flex">
+                    <div>
+                      <a href="#">
+                        <img src="assets/icons/heart.svg" alt="" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <img src="assets/icons/basket.svg" alt="" />
+                      </a>
+                    </div>
+                    <div>
+                      <button
+                        class="navbar-toggler navbar-toggler-customize"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
       <!--header-main-menu : end-->
