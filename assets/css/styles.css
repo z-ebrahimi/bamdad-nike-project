@@ -74,7 +74,7 @@ input::placeholder {
 }
 .search-box-icon {
   left: 10px;
-  top: 50%;
+  top: 51%;
   transform: translateY(-50%);
   position: absolute;
   cursor: pointer;
@@ -96,7 +96,7 @@ input::placeholder {
 .opened-search-box.active {
   display: block;
 }
-.opened-search-box > input {
+.opened-search-box input {
   position: relative;
   width: 50%;
   background-color: var(--secondary-color);
@@ -107,13 +107,20 @@ input::placeholder {
   height: 45px;
   line-height: 45px;
 }
-.opened-search-box-icon {
+.opened-search-box-submit {
   position: absolute;
-  left: 23%;
+  right: 28.5%;
   z-index: 1000;
   top: 50%;
   transform: translateY(-50%);
+  border: none;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  line-height: 15px;
+  background-color: var(--septenary-color);
 }
+
 #close-search-box {
   cursor: pointer;
   outline: none;

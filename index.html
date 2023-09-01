@@ -111,18 +111,15 @@
                     />
                   </div>
                   <!--opened-search-box-->
-                  <form action="">
-                    <div
-                      id="header-opened-search-box"
-                      class="opened-search-box"
-                    >
-                      <div class="opened-search-box-icon">
-                        <img src="assets/icons/magnifying-glass.svg" alt="" />
-                      </div>
+                  <div id="header-opened-search-box" class="opened-search-box">
+                    <form action="" role="search" method="get">
                       <input type="text" placeholder="Search" />
+                      <button class="opened-search-box-submit">
+                        <img src="assets/icons/magnifying-glass.svg" alt="" />
+                      </button>
                       <button id="close-search-box" class="ps-3">Cancel</button>
-                    </div>
-                  </form>
+                    </form>
+                  </div>
                 </div>
                 <!--main-menu *** basket-&-favorite-->
                 <div class="col-6 col-lg-4">
