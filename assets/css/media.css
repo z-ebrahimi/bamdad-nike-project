@@ -39,6 +39,10 @@
     width: 35px;
     line-height: 10px;
   }
+  #header-main-menu #offcanvasNavbar,
+  .sub-main-menu .offcanvas {
+    width: 80%;
+  }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */

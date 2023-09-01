@@ -62,6 +62,9 @@ input::placeholder {
 #header-main-menu .navbar-toggler-customize:focus {
   box-shadow: none;
 }
+#header-main-menu #offcanvasNavbar.offcanvas.show {
+  font-size: 1.2rem;
+}
 /*header-search-box*/
 .search-box > input {
   width: 100%;
@@ -159,11 +162,11 @@ input::placeholder {
   text-align: left;
   border: none;
 }
-/*#header-main-menu .offcanvas-backdrop,
-.sub-main-menu .offcanvas-backdrop {
+/*#header-main-menu #offcanvasNavbar,
+.sub-main-menu .offcanvas {
 }
-#header-main-menu .offcanvas,
-.sub-main-menu .offcanvas{
+#header-main-menu .offcanvas-backdrop,
+.sub-main-menu .offcanvas-backdrop {
 }*/
 
 /*header:end*/
