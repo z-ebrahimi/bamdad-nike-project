@@ -36,30 +36,30 @@ input::placeholder {
   font-size: 0.8rem;
   font-weight: bold;
 }
-/*main-menu*/
-.navbar li {
+/*header-main-menu*/
+#header-main-menu .navbar li {
   padding: 5px;
   transition: all 500ms;
 }
-.navbar a {
+#header-main-menu .navbar a {
   color: var(--primary-color);
   font-weight: bold;
 }
-.navbar a:hover {
+#header-main-menu .navbar a:hover {
   color: var(--senary-color);
 }
-.navbar-toggler-customize {
+#header-main-menu .navbar-toggler-customize {
   border: none;
   outline: none;
   font-size: 1rem;
 }
-.navbar-toggler-customize:hover {
+#header-main-menu .navbar-toggler-customize:hover {
   border-radius: 50%;
   width: 48px;
   height: 32px;
   background-color: var(--septenary-color);
 }
-.navbar-toggler-customize:focus {
+#header-main-menu .navbar-toggler-customize:focus {
   box-shadow: none;
 }
 .search-box > input {
