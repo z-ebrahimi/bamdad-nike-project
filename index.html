@@ -41,7 +41,7 @@
         <div
           class="row justify-content-center align-items-center position-relative"
         >
-          <nav class="navbar navbar-expand-lg mx-xl-5">
+          <nav id="header-navbar" class="navbar navbar-expand-lg mx-xl-5">
             <!--main-menu *** logo-->
             <div class="col-5 col-lg-3">
               <div class="nike-logo">
@@ -58,6 +58,7 @@
                 >
                   <div class="offcanvas-header">
                     <button
+                    id="side-main-menu-close-btn"
                       type="button"
                       class="btn-close"
                       data-bs-dismiss="offcanvas"
@@ -67,22 +68,53 @@
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-xxl-5">
                       <li class="nav-item">
                         <a
-                          class="nav-link d-inline-block text-truncate"
+                          class="btn nav-link d-inline-block text-truncate"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight-new&featured"
                           href="#"
                           >New & Featured</a
                         >
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Men</a>
+                        <a
+                          class="btn nav-link d-inline-block"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight-men"
+                          href="#"
+                          >Men</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Women</a>
+                        <a
+                          class="btn nav-link d-inline-block"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight-women"
+                          href="#"
+                          >Women</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Kids</a>
+                        <a
+                          class="btn nav-link d-inline-block"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight-kids"
+                          href="#"
+                          >Kids</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Sale</a>
+                        <a
+                          class="btn nav-link d-inline-block"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight-sale"
+                          href="#"
+                          >Sale</a
+                        >
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">SNKRS</a>
@@ -149,6 +181,149 @@
               </div>
             </div>
           </nav>
+        </div>
+      </div>
+      <!--main-menu-offcanvas-->
+      <div class="sub-main-menu">
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight-new&featured"
+        >
+          <button
+            class="btn side-main-menu-back-btn"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            type="back"
+            value="back"
+          >
+            <img src="/assets/icons/left-chevron.png" alt="" />
+            <span class="ps-2">All</span>
+          </button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              <a href="">New & Featured</a>
+            </h5>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Shop Icons</a></li>
+              <li><a href="#">Best Reads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight-men"
+        >
+          <button
+            class="btn side-main-menu-back-btn"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            type="back"
+            value="back"
+          >
+            <img src="/assets/icons/left-chevron.png" alt="" />
+            <span class="ps-2">All</span>
+          </button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Men</h5>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Clothing</a></li>
+              <li><a href="#">Shop By Sport</a></li>
+              <li><a href="#">Accessories and Equipment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight-women"
+        >
+          <button
+            class="btn side-main-menu-back-btn"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            type="back"
+            value="back"
+          >
+            <img src="/assets/icons/left-chevron.png" alt="" />
+            <span class="ps-2">All</span>
+          </button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Women</h5>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Clothing</a></li>
+              <li><a href="#">Shop By Sport</a></li>
+              <li><a href="#">Accessories and Equipment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight-kids"
+        >
+          <button
+            class="btn side-main-menu-back-btn"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            type="back"
+            value="back"
+          >
+            <img src="/assets/icons/left-chevron.png" alt="" />
+            <span class="ps-2">All</span>
+          </button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Kids</h5>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Clothing</a></li>
+              <li><a href="#">Kids By Age</a></li>
+              <li><a href="#">Accessories and Equipment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight-sale"
+        >
+          <button
+            class="btn side-main-menu-back-btn"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            type="back"
+            value="back"
+          >
+            <img src="/assets/icons/left-chevron.png" alt="" />
+            <span class="ps-2">All</span>
+          </button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Sale</h5>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Sale For Men</a></li>
+              <li><a href="#">Sale For Women</a></li>
+              <li><a href="#">Sale For Kids</a></li>
+              <li><a href="#">Sale By Sports</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <!--header-main-menu : end-->

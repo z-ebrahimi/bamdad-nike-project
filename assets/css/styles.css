@@ -133,6 +133,39 @@ input::placeholder {
 .fav-basket-box img {
   padding: 0px 12px;
 }
+/*header-sub-main-menu*/
+.sub-main-menu li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+.sub-main-menu a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.sub-main-menu li > a {
+  color: var(--quaternary-color);
+  font-weight: 500;
+}
+.sub-main-menu .offcanvas-header {
+  margin-left: 25px;
+}
+.sub-main-menu img {
+  width: 20px;
+  color: var(--quaternary-color);
+}
+.sub-main-menu .side-main-menu-back-btn {
+  font-weight: 500;
+  margin: 10px 20px;
+  text-align: left;
+  border: none;
+}
+/*#header-main-menu .offcanvas-backdrop,
+.sub-main-menu .offcanvas-backdrop {
+}
+#header-main-menu .offcanvas,
+.sub-main-menu .offcanvas{
+}*/
+
 /*header:end*/
 
 /*main:start*/

@@ -23,3 +23,23 @@ searchBoxIcon.addEventListener("click", () => {
   openedSearchBox.classList.add("active");
   openedSearchBoxInput.focus();
 });
+
+//main-menu-back-button
+const sideMainMenuBackBtn = document.querySelectorAll(
+  ".side-main-menu-back-btn"
+);
+const headerNavbar = document.getElementById("header-navbar");
+const sideMainMenuCloseBtn = document.getElementById(
+  "side-main-menu-close-btn"
+);
+//const offCanvasNavbar = document.getElementById("offcanvasNavbar");
+
+sideMainMenuBackBtn.forEach((item) => {
+  item.addEventListener("click", () => {
+    headerNavbar.classList.remove("navbar-expand-lg");
+  });
+});
+sideMainMenuCloseBtn.addEventListener("click", () => {
+  headerNavbar.classList.add("navbar-expand-lg");
+});
+
