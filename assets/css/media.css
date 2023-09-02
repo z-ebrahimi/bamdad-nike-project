@@ -12,6 +12,9 @@
   .opened-search-box-submit {
     left: 21.2%;
   }
+  .main-menu-backdrop li {
+    padding: 9px;
+  }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -42,6 +45,10 @@
   #header-main-menu #offcanvasNavbar,
   .sub-main-menu .offcanvas {
     width: 80%;
+    font-size: 1.2rem;
+  }
+  #main-menu-backdrop.active {
+    display: none;
   }
 }
 

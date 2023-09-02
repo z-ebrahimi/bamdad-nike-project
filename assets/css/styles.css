@@ -16,7 +16,7 @@ input::placeholder {
   color: var(--septenary-color);
 }
 /*header:start*/
-/*top-menu*/
+/*header-top-menu*/
 .top-menu-container {
   background-color: var(--secondary-color);
 }
@@ -62,9 +62,31 @@ input::placeholder {
 #header-main-menu .navbar-toggler-customize:focus {
   box-shadow: none;
 }
-#header-main-menu #offcanvasNavbar.offcanvas.show {
+/*header-main-menu-backdrop-show*/
+.main-menu-backdrop {
+  display: none;
+  position: absolute;
+  left: 22.6%;
+}
+.main-menu-backdrop li {
+  list-style-type: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 15px;
+  margin:-2px;
+}
+#main-menu-backdrop.active {
+  display: block;
+}
+/*#header-main-menu #offcanvasNavbar.offcanvas.show {
   font-size: 1.2rem;
 }
+#header-main-menu #offcanvasNavbar,
+.sub-main-menu .offcanvas {
+}
+#header-main-menu .offcanvas-backdrop,
+.sub-main-menu .offcanvas-backdrop {
+}*/
 /*header-search-box*/
 .search-box > input {
   width: 100%;
@@ -162,13 +184,6 @@ input::placeholder {
   text-align: left;
   border: none;
 }
-/*#header-main-menu #offcanvasNavbar,
-.sub-main-menu .offcanvas {
-}
-#header-main-menu .offcanvas-backdrop,
-.sub-main-menu .offcanvas-backdrop {
-}*/
-
 /*header:end*/
 
 /*main:start*/

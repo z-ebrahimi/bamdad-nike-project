@@ -1,4 +1,4 @@
-// header-opened-search-box
+// header-opened-search-box:
 const openedSearchBox = document.getElementById("header-opened-search-box");
 const searchBoxInput = document.querySelector(
   "#header-search-box input[type='text']"
@@ -16,7 +16,7 @@ closeSearchBox.addEventListener("click", () => {
   openedSearchBox.classList.remove("active");
 });
 
-// header-search-box-icon
+// header-search-box-icon:
 const searchBoxIcon = document.getElementById("header-search-box-icon");
 
 searchBoxIcon.addEventListener("click", () => {
@@ -25,7 +25,7 @@ searchBoxIcon.addEventListener("click", () => {
 });
 
 //////////////////////////////////
-// header mainMenu-sideMainMenu
+// header-mainMenu-sideMainMenu:
 const sideMainMenuBackBtn = document.querySelectorAll(
   ".side-main-menu-back-btn"
 );
@@ -34,6 +34,8 @@ const sideMainMenuCloseBtn = document.getElementById(
   "side-main-menu-close-btn"
 );
 const offCanvasNavbar = document.getElementById("offcanvasNavbar");
+const navItems = document.querySelectorAll(".nav-link");
+const mainMenuBackdrop = document.getElementById("main-menu-backdrop");
 
 let isMainMenuExpanded = true; //mainMenu state
 
@@ -54,17 +56,26 @@ sideMainMenuBackBtn.forEach((item) => {
   item.addEventListener("click", (event) => {
     event.stopPropagation(); // Prevent the body click event from firing
     collapseMainMenu();
+    mainMenuBackdrop.classList.add("active");
   });
 });
 
 // sideMainMenuCloseBtn
 sideMainMenuCloseBtn.addEventListener("click", () => {
   expandMainMenu();
+  mainMenuBackdrop.classList.remove("active");
 });
 
 // Add click event listener to the body to close the side menu and expand the main menu
 document.body.addEventListener("click", (event) => {
   if (!offCanvasNavbar.contains(event.target) && !isMainMenuExpanded) {
     expandMainMenu();
+    mainMenuBackdrop.classList.remove("active");
   }
 });
+
+// navItems Click
+navItems.forEach((item) => {
+  item.addEventListener("click", expandMainMenu);
+});
+//////////////////////////////////
