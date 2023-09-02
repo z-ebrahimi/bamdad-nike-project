@@ -74,8 +74,11 @@ document.body.addEventListener("click", (event) => {
   }
 });
 
-// navItems Click
+// 
 navItems.forEach((item) => {
-  item.addEventListener("click", expandMainMenu);
+  item.addEventListener("click", () => {
+    expandMainMenu();
+    mainMenuBackdrop.classList.remove("active");
+  });
 });
 //////////////////////////////////
