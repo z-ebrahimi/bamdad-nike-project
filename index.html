@@ -117,7 +117,14 @@
                         >
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">SNKRS</a>
+                        <a
+                          class="btn nav-link d-inline-block"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight-snkrs"
+                          href="#"
+                          >SNKRS</a
+                        >
                       </li>
                     </ul>
                   </div>
@@ -334,6 +341,33 @@
                 </ul>
               </div>
             </div>
+            <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight-snkrs"
+          >
+            <button
+              class="btn side-main-menu-back-btn"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              type="back"
+              value="back"
+            >
+              <img src="/assets/icons/left-chevron.png" alt="" />
+              <span class="ps-2">All</span>
+            </button>
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">SNKRS</h5>
+            </div>
+            <div class="offcanvas-body">
+              <ul>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">SNKRS For Men</a></li>
+                <li><a href="#">SNKRS For Women</a></li>
+                <li><a href="#">SNKRS For Kids</a></li>
+              </ul>
+            </div>
+          </div>
           </div>
         </div>
       </div>

@@ -74,7 +74,7 @@ document.body.addEventListener("click", (event) => {
   }
 });
 
-// 
+// navItems Click
 navItems.forEach((item) => {
   item.addEventListener("click", () => {
     expandMainMenu();
