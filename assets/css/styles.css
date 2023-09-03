@@ -73,7 +73,7 @@ input::placeholder {
   color: var(--primary-color);
   font-weight: bold;
   padding: 15px;
-  margin:-2px;
+  margin: -2px;
 }
 #main-menu-backdrop.active {
   display: block;
@@ -187,17 +187,20 @@ input::placeholder {
 /*header:end*/
 
 /*main:start*/
-/*nike-app-section*/
-.nike-app-section {
+/*usp-section*/
+#usp-section .swiper {
+  width: 100%;
+  height: fit-content;
+}
+.usp-section {
   text-align: center;
-  height: 60px;
   background-color: var(--secondary-color);
 }
-.nike-app-section a {
+.usp-section a {
   font-weight: 500;
   color: var(--primary-color);
 }
-.nike-app-text {
+.usp-text {
   font-size: 0.8rem;
 }
 /*hero-section*/

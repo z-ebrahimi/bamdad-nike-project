@@ -45,7 +45,9 @@
             <!--main-menu *** logo-->
             <div class="col-5 col-lg-3">
               <div class="nike-logo">
-                <img src="assets/icons/nike.png" alt="nike-logo" />
+                <a href="index.html"
+                  ><img src="assets/icons/nike.png" alt="nike-logo"
+                /></a>
               </div>
             </div>
             <!--main-menu *** navbar-->
@@ -342,32 +344,32 @@
               </div>
             </div>
             <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasRight-snkrs"
-          >
-            <button
-              class="btn side-main-menu-back-btn"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              type="back"
-              value="back"
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasRight-snkrs"
             >
-              <img src="/assets/icons/left-chevron.png" alt="" />
-              <span class="ps-2">All</span>
-            </button>
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasRightLabel">SNKRS</h5>
+              <button
+                class="btn side-main-menu-back-btn"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                type="back"
+                value="back"
+              >
+                <img src="/assets/icons/left-chevron.png" alt="" />
+                <span class="ps-2">All</span>
+              </button>
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">SNKRS</h5>
+              </div>
+              <div class="offcanvas-body">
+                <ul>
+                  <li><a href="#">Featured</a></li>
+                  <li><a href="#">SNKRS For Men</a></li>
+                  <li><a href="#">SNKRS For Women</a></li>
+                  <li><a href="#">SNKRS For Kids</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="offcanvas-body">
-              <ul>
-                <li><a href="#">Featured</a></li>
-                <li><a href="#">SNKRS For Men</a></li>
-                <li><a href="#">SNKRS For Women</a></li>
-                <li><a href="#">SNKRS For Kids</a></li>
-              </ul>
-            </div>
-          </div>
           </div>
         </div>
       </div>
@@ -378,14 +380,44 @@
     <!--*** Main : Start ***-->
     <main>
       <!--nike-app-section : start-->
-      <section class="nike-app-section py-2">
+      <section id="usp-section" class="usp-section py-2">
         <div class="container-fluid">
           <div class="row">
-            <div class="col">
-              <div class="nike-app-title fw-bold">Hello Nike App</div>
-              <div class="nike-app-text">
-                <span>Download the app to access everything Nike.</span>
-                <span><a href="">Get Your Great</a></span>
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="col">
+                    <div class="usp-title fw-bold">Hello Nike App</div>
+                    <div class="usp-text">
+                      <span>Download the app to access everything Nike.</span>
+                      <span><a href="">Get Your Great</a></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col">
+                    <div class="usp-title fw-bold">Show All New Arrivals</div>
+                    <div class="usp-text">
+                      <span><a href="">Shop</a></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col">
+                    <div class="usp-title fw-bold">Free Delivery & Return</div>
+                    <div class="usp-text">
+                      <span
+                        >Nike Members get free delivery and free 30-day
+                        returns.</span
+                      >
+                      <span><a href="">Learn More</a></span>
+                      <span><a href="">Join Us</a></span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -419,7 +451,6 @@
                 <div class="swiper-button-next"></div>
               </div>
             </div>
-
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -1038,28 +1069,49 @@
           </div>
           <div class="row">
             <div class="d-flex my-3 position-relative">
-              <div class="col">
-                <div>
-                  <img src="assets/images/essentials-image (1).png" alt="" />
-                </div>
-                <div class="essentials-description">
-                  <a href="#">Men's</a>
-                </div>
-              </div>
-              <div class="col">
-                <div>
-                  <img src="assets/images/essentials-image (2).png" alt="" />
-                </div>
-                <div class="essentials-description">
-                  <a href="#">Women's</a>
-                </div>
-              </div>
-              <div class="col">
-                <div>
-                  <img src="assets/images/essentials-image (3).png" alt="" />
-                </div>
-                <div class="essentials-description">
-                  <a href="#">Kids'</a>
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="col">
+                      <div>
+                        <img
+                          src="assets/images/essentials-image (1).png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="essentials-description">
+                        <a href="#">Men's</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col">
+                      <div>
+                        <img
+                          src="assets/images/essentials-image (2).png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="essentials-description">
+                        <a href="#">Women's</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col">
+                      <div>
+                        <img
+                          src="assets/images/essentials-image (3).png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="essentials-description">
+                        <a href="#">Kids'</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

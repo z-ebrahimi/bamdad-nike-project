@@ -1,6 +1,5 @@
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-  /* body{} */
   .opened-search-box-submit {
     left: 21.8%;
   }
@@ -8,7 +7,6 @@
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-  /* body{} */
   .opened-search-box-submit {
     left: 21.2%;
   }
@@ -19,7 +17,6 @@
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  /* body{} */
   .search-box-icon {
     left: 90%;
     top: 30%;
@@ -54,42 +51,27 @@
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* body{} */
-  .air-max-box,
-  #air-max .shop-link {
-    font-size: 0.7rem;
-  }
-  #men-swiper .swiper,
-  #women-swiper .swiper {
-    font-size: 0.7rem;
-  }
-  .essentials-description {
-    font-size: 0.7rem;
-  }
   .opened-search-box-submit {
     left: 10%;
+  }
+  .air-max-box,
+  #air-max .shop-link,
+  #men-swiper .swiper,
+  #women-swiper .swiper,
+  .essentials-description {
+    font-size: 0.7rem;
   }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* body{} */
-  .air-max-box,
-  #air-max .shop-link {
-    font-size: 0.5rem;
-  }
-  #men-swiper .swiper,
-  #women-swiper .swiper {
-    font-size: 0.5rem;
+  .opened-search-box-submit {
+    left: 9.5%;
   }
   .essentials-description {
-    font-size: 0.5rem;
     margin-left: 20px;
     min-width: 60px;
     min-height: 25px;
     line-height: 25px;
-  }
-  .opened-search-box-submit {
-    left: 9.5%;
   }
 }
