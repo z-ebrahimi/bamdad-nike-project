@@ -1,3 +1,8 @@
+/*@font-face {
+  font-family: "HelveticaNeue";
+  src: url("assets/fonts/HelveticaNeue-Black.otf") format("opentype"),
+    url("assets/fonts/HelveticaNeue-Bold.otf") format("opentype");
+}*/
 :root {
   --primary-color: #000;
   --secondary-color: #f5f5f5;
@@ -6,6 +11,10 @@
   --quinary-color: #ffffff;
   --senary-color: #3d3d3d8d;
   --septenary-color: #cccccc;
+}
+body {
+  color: var(--primary-color);
+  font-size: 0.9rem;
 }
 * {
   margin: 0;
@@ -33,7 +42,7 @@ input::placeholder {
 .top-menu > ul > li a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: bold;
 }
 /*header-main-menu*/
@@ -70,7 +79,6 @@ input::placeholder {
 }
 .main-menu-backdrop li {
   list-style-type: none;
-  color: var(--primary-color);
   font-weight: bold;
   padding: 15px;
   margin: -2px;
@@ -100,8 +108,8 @@ input::placeholder {
 }
 .search-box-icon {
   left: 10px;
-  top: 40%;
-  transform: translateY(-40%);
+  top: 45%;
+  transform: translateY(-45%);
   position: absolute;
   cursor: pointer;
 }
@@ -135,10 +143,10 @@ input::placeholder {
 }
 .opened-search-box-submit {
   position: absolute;
-  left: 22.2%;
+  left: 22.5%;
   z-index: 1000;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 49%;
+  transform: translateY(-49%);
   border: none;
   height: 40px;
   width: 45px;
@@ -148,7 +156,6 @@ input::placeholder {
 }
 
 #close-search-box {
-  cursor: pointer;
   outline: none;
   border: none;
   background-color: var(--quinary-color);
@@ -170,6 +177,7 @@ input::placeholder {
 .sub-main-menu li > a {
   color: var(--quaternary-color);
   font-weight: 500;
+  font-size: 1rem;
 }
 .sub-main-menu .offcanvas-header {
   margin-left: 25px;
@@ -187,6 +195,12 @@ input::placeholder {
 /*header:end*/
 
 /*main:start*/
+.section-header {
+  font-size: 1.35rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
 /*usp-section*/
 #usp-section .swiper {
   width: 100%;
@@ -201,28 +215,49 @@ input::placeholder {
   color: var(--primary-color);
 }
 .usp-text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
-/*hero-section*/
-.hero-section img {
+/*hero-section*//*teaser-section*/
+.teaser-img img {
   width: 100%;
-  height: 650px;
+}
+.teaser-text {
+  text-align: center;
+}
+.teaser-intro {
+  font-weight: 500;
+}
+.teaser-header {
+  line-height: 50px;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.teaser-btn {
+  text-align: center;
+}
+.teaser-btn button {
+  width: fit-content;
+  max-height: 39px;
+  line-height: 24px;
+  border-radius: 30px;
+  background-color: var(--primary-color);
+  padding: 5px 20px;
+  margin: 15px 1px;
 }
 /*air-max-slider-section*/
+#air-max {
+  font-weight: 500;
+}
 #air-max .swiper {
   width: 100%;
   height: max-content;
-}
-.air-max-box,
-#air-max .shop-link {
-  font-size: 0.8rem;
 }
 #air-max img {
   width: 100%;
 }
 #air-max .swiper-button-next::after,
 #air-max .swiper-button-prev::after {
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 #air-max .swiper-button-prev,
 #air-max .swiper-button-next {
@@ -233,37 +268,42 @@ input::placeholder {
   color: var(--primary-color);
   background-color: var(--tertiary-color);
   position: unset;
-  margin: -5px 3px;
+  margin: 2px 3px;
 }
 #air-max .swiper-button-prev:hover,
 #air-max .swiper-button-next:hover {
   background-color: var(--quaternary-color);
   transition: all 500ms;
 }
-
 #air-max a {
   text-decoration: none;
   color: var(--primary-color);
-  font-weight: bold;
 }
 #air-max .category-link a {
   color: var(--quaternary-color);
+  font-weight: 400;
+}
+/*featured-section*//*teaser-section*/
+.featured-section.teaser-section{
+  margin-top: 70px;
 }
 /*gear-up-slider-section*/
+.gear-up-section {
+  font-weight: 500;
+}
 #men-swiper .swiper,
 #women-swiper .swiper {
   width: 100%;
   height: max-content;
-  font-size: 0.8rem;
 }
 .gear-up-section a {
   text-decoration: none;
   color: var(--primary-color);
-  font-weight: bold;
 }
 #men-swiper .category-link a,
 #women-swiper .category-link a {
   color: var(--quaternary-color);
+  font-weight: 400;
 }
 #men-swiper img,
 #women-swiper img {
@@ -273,7 +313,7 @@ input::placeholder {
 #men-swiper .swiper-button-next::after,
 #women-swiper .swiper-button-next::after,
 #women-swiper .swiper-button-prev::after {
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 #men-swiper .swiper-button-next,
 #men-swiper .swiper-button-prev,
@@ -299,13 +339,12 @@ input::placeholder {
 #essentials a {
   text-decoration: none;
   color: var(--primary-color);
-  font-weight: bold;
+  font-weight: 500;
 }
 #essentials img {
   width: 98%;
 }
 .essentials-description {
-  font-size: 0.8rem;
   position: absolute;
   background-color: var(--quinary-color);
   bottom: 10%;
