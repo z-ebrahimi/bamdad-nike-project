@@ -147,8 +147,8 @@ usp_swiper.el.addEventListener("mouseleave", function () {
 });
 
 ///////////////////////////////
-//essentials-slider
-const essentials_swiper = new Swiper("#essentials .swiper", {
+//essentials-section-slider
+const essentials_swiper = new Swiper("#essentials-section .swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 1.2,

@@ -57,6 +57,10 @@
   .teaser-text p {
     font-size: 0.7rem;
   }
+  /*footer*/
+  .company-terms {
+    padding-left: 15px;
+  }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -69,6 +73,10 @@
   #men-swiper .swiper,
   #women-swiper .swiper {
     font-size: 0.7rem;
+  }
+  /*footer*/
+  .company-terms li {
+    padding: 10px 15px;
   }
 }
 
