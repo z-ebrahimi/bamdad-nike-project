@@ -383,6 +383,7 @@ li {
 .footer-list-head {
   padding-bottom: 5px;
 }
+.footer-list-head,
 .footer-list-head a {
   color: var(--quinary-color);
 }
@@ -404,4 +405,30 @@ li {
 .company-branch img {
   margin: 0px 10px 5px 0px;
 }
+/*footer-accordion*/
+#footer-accordion-mode .accordion-head-item {
+  position: relative;
+}
+#footer-accordion-mode .accordion-head-item:hover {
+  cursor: pointer;
+}
+#footer-accordion-mode .accordion-head-item::after {
+  content: "\002B";
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  transform: translateY(-60%);
+  font-size: 1rem;
+}
+#footer-accordion-mode .accordion-head-item.active::after {
+  content: "\2212";
+}
+#footer-accordion-mode .accordion-body-item {
+  display: none;
+  border-bottom: 1px solid var(--octonary-color);
+}
+#footer-accordion-mode .accordion-body-item.active {
+  display: block;
+}
+/*****************/
 /*footer:end*/

@@ -1287,7 +1287,11 @@
         <div class="container">
           <!--footer-1st-row-->
           <div class="row py-5">
-            <div class="col-12 col-lg-7 d-md-flex ms-4 m-md-0">
+            <!--*footer-list-mode:start*--->
+            <div
+              id="footer-list-mode"
+              class="col-12 col-lg-7 d-md-flex ms-4 m-md-0"
+            >
               <div class="col footer-list mb-4 mb-md-0">
                 <div class="footer-list-head ms-0 ms-md-4">
                   <ul>
@@ -1324,6 +1328,65 @@
                 </div>
               </div>
             </div>
+            <!--*footer-list-mode:end*--->
+            <!--*footer-accordion-mode:start-->
+            <div
+              id="footer-accordion-mode"
+              class="col-12 ms-4 accordion-container"
+            >
+              <div class="col footer-list mb-4">
+                <div class="footer-list-head">
+                  <ul>
+                    <li><a href="#">Find A Store</a></li>
+                    <li><a href="#">Become A Member</a></li>
+                    <li><a href="#">Sign Up for Email</a></li>
+                    <li><a href="#">Send Us Feedback</a></li>
+                    <li><a href="#">Student Discounts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col footer-list mb-4 accordion-item">
+                <div
+                  class="footer-list-head accordion-head-item"
+                  data-target="foot-accordion-1"
+                >
+                  Get Help
+                </div>
+                <div
+                  class="footer-list-body accordion-body-item me-5"
+                  data-target="foot-accordion-1"
+                >
+                  <ul>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Contact Us On Nike.com Inquiries</a></li>
+                    <li><a href="#">Contact Us On All Other Inquiries</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col footer-list mb-4 accordion-item">
+                <div
+                  class="footer-list-head accordion-head-item"
+                  data-target="foot-accordion-2"
+                >
+                  About Nike
+                </div>
+                <div
+                  class="footer-list-body accordion-body-item me-5"
+                  data-target="foot-accordion-2"
+                >
+                  <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--*footer-accordion-mode:end-->
             <div class="col-12 col-lg-5">
               <div
                 class="footer-media d-flex justify-content-lg-end me-4 ms-3 mt-3 mt-md-0"
@@ -1361,10 +1424,10 @@
       </div>
     </footer>
     <!--*** Footer : End ***-->
-
     <script src="assets/js/bootstrap.bundle.min.js" type="module"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/swiper.js" type="module"></script>
+    <script src="assets/js/accordion.js" type="module"></script>
     <script src="assets/js/script.js" type="module"></script>
   </body>
 </html>

@@ -1,3 +1,12 @@
+@media (max-width: 2000px) {
+  /*footer*/
+  #footer-list-mode {
+    display: block;
+  }
+  #footer-accordion-mode {
+    display: none;
+  }
+}
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
   /*header*/
@@ -77,6 +86,12 @@
   /*footer*/
   .company-terms li {
     padding: 10px 15px;
+  }
+  #footer-list-mode {
+    display: none;
+  }
+  #footer-accordion-mode {
+    display: block;
   }
 }
 
