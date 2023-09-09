@@ -42,9 +42,9 @@ const shoe_swiper = new Swiper("#shoe-section .swiper", {
 });
 
 ////////////////////////////
-//gear-up-section-sliders:
+//clothing-section-sliders:
 //1-men-swiper
-const gear_up_men_swiper = new Swiper("#men-swiper .swiper", {
+const men_clothing_swiper = new Swiper("#men-swiper .swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 1,
@@ -87,7 +87,7 @@ const gear_up_men_swiper = new Swiper("#men-swiper .swiper", {
 });
 
 //2-women-swiper
-const gear_up_women_swiper = new Swiper("#women-swiper .swiper", {
+const women_clothing_swiper = new Swiper("#women-swiper .swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 1,

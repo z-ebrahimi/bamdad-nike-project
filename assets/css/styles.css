@@ -275,8 +275,8 @@ li {
 .featured-section.teaser-section {
   margin-top: 70px;
 }
-/*gear-up-slider-section*/
-.gear-up-section {
+/*clothing-section-slider*/
+.clothing-section {
   font-weight: 500;
 }
 #men-swiper .swiper,
@@ -284,7 +284,7 @@ li {
   width: 100%;
   height: max-content;
 }
-.gear-up-section a {
+.clothing-section a {
   color: var(--primary-color);
 }
 #men-swiper .category-link a,
