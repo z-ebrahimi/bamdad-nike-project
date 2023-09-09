@@ -51,26 +51,35 @@ function expandMainMenu() {
   isMainMenuExpanded = true;
 }
 
+// Function to show mainMenuBackdrop
+function showBackDropMenu() {
+  mainMenuBackdrop.classList.add("active");
+}
+// Function to hide mainMenuBackdrop
+function hideBackDropMenu() {
+  mainMenuBackdrop.classList.remove("active");
+}
+
 // sideMainMenuBackBtn
 sideMainMenuBackBtn.forEach((item) => {
   item.addEventListener("click", (event) => {
     event.stopPropagation(); // Prevent the body click event from firing
     collapseMainMenu();
-    mainMenuBackdrop.classList.add("active");
+    showBackDropMenu();
   });
 });
 
 // sideMainMenuCloseBtn
 sideMainMenuCloseBtn.addEventListener("click", () => {
   expandMainMenu();
-  mainMenuBackdrop.classList.remove("active");
+  hideBackDropMenu();
 });
 
 // Add click event listener to the body to close the side menu and expand the main menu
 document.body.addEventListener("click", (event) => {
   if (!offCanvasNavbar.contains(event.target) && !isMainMenuExpanded) {
     expandMainMenu();
-    mainMenuBackdrop.classList.remove("active");
+    hideBackDropMenu();
   }
 });
 
@@ -78,7 +87,7 @@ document.body.addEventListener("click", (event) => {
 navItems.forEach((item) => {
   item.addEventListener("click", () => {
     expandMainMenu();
-    mainMenuBackdrop.classList.remove("active");
+    hideBackDropMenu();
   });
 });
 //////////////////////////////////
