@@ -13,6 +13,9 @@
   .opened-search-box-submit {
     left: 22%;
   }
+  .main-menu-backdrop {
+    left: 26.3%;
+  }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
@@ -21,8 +24,8 @@
   .opened-search-box-submit {
     left: 21.5%;
   }
-  .main-menu-backdrop li {
-    padding: 9px;
+  .main-menu-backdrop {
+    left: 21.8%;
   }
 }
 
