@@ -81,11 +81,6 @@
   .opened-search-box-submit {
     left: 10%;
   }
-  /*main*/
-  #men-swiper .swiper,
-  #women-swiper .swiper {
-    font-size: 0.7rem;
-  }
   /*footer*/
   .company-terms li {
     padding: 10px 15px;
