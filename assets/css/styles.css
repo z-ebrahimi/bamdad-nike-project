@@ -1,8 +1,3 @@
-/*@font-face {
-  font-family: "HelveticaNeue";
-  src: url("assets/fonts/HelveticaNeue-Black.otf") format("opentype"),
-    url("assets/fonts/HelveticaNeue-Bold.otf") format("opentype");
-}*/
 :root {
   --primary-color: #000;
   --secondary-color: #f5f5f5;
@@ -91,15 +86,6 @@ li {
 #main-menu-backdrop.active {
   display: block;
 }
-/*#header-main-menu #offcanvasNavbar.offcanvas.show {
-  font-size: 1.2rem;
-}
-#header-main-menu #offcanvasNavbar,
-.sub-main-menu .offcanvas {
-}
-#header-main-menu .offcanvas-backdrop,
-.sub-main-menu .offcanvas-backdrop {
-}*/
 /*header-search-box*/
 .search-box > input {
   width: 100%;
@@ -247,23 +233,23 @@ li {
   padding: 5px 20px;
   margin: 15px 1px;
 }
-/*air-max-slider-section*/
-#air-max {
+/*shoe-section-slider*/
+#shoe-section {
   font-weight: 500;
 }
-#air-max .swiper {
+#shoe-section .swiper {
   width: 100%;
   height: max-content;
 }
-#air-max img {
+#shoe-section img {
   width: 100%;
 }
-#air-max .swiper-button-next::after,
-#air-max .swiper-button-prev::after {
+#shoe-section .swiper-button-next::after,
+#shoe-section .swiper-button-prev::after {
   font-size: 0.7rem;
 }
-#air-max .swiper-button-prev,
-#air-max .swiper-button-next {
+#shoe-section .swiper-button-prev,
+#shoe-section .swiper-button-next {
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -273,15 +259,15 @@ li {
   position: unset;
   margin: 2px 3px;
 }
-#air-max .swiper-button-prev:hover,
-#air-max .swiper-button-next:hover {
+#shoe-section .swiper-button-prev:hover,
+#shoe-section .swiper-button-next:hover {
   background-color: var(--quaternary-color);
   transition: all 500ms;
 }
-#air-max a {
+#shoe-section a {
   color: var(--primary-color);
 }
-#air-max .category-link a {
+#shoe-section .category-link a {
   color: var(--quaternary-color);
   font-weight: 400;
 }

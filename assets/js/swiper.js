@@ -1,5 +1,5 @@
-//air-max-sliders
-const air_max_swiper = new Swiper("#air-max .swiper", {
+//shoe-section-slider
+const shoe_swiper = new Swiper("#shoe-section .swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 1.2,
