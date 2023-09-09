@@ -145,7 +145,6 @@ li {
   line-height: 15px;
   background-color: var(--septenary-color);
 }
-
 #close-search-box {
   outline: none;
   border: none;
@@ -233,6 +232,9 @@ li {
   padding: 5px 20px;
   margin: 15px 1px;
 }
+.teaser-section.middle-teaser {
+  margin-top: 70px;
+}
 /*shoe-section-slider*/
 #shoe-section {
   font-weight: 500;
@@ -270,10 +272,6 @@ li {
 #shoe-section .category-link a {
   color: var(--quaternary-color);
   font-weight: 400;
-}
-/*featured-section*/ /*teaser-section*/
-.featured-section.teaser-section {
-  margin-top: 70px;
 }
 /*clothing-section-slider*/
 .clothing-section {
